@@ -1,0 +1,103 @@
+/* products.css */
+
+/* Headings */
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Pagination Controls */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pagination-controls button {
+  background-color: #ccc; /* Light grey button */
+  color: #000; /* Black text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.pagination-controls button:disabled {
+  background-color: #ddd; /* Disabled button color */
+  cursor: default;
+}
+
+.pagination-controls span {
+  padding: 0 0.5rem;
+}
+
+/* Products Table */
+.table-wrapper {
+  overflow-x: auto; /* Enable horizontal scroll for long tables */
+}
+
+.product-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.product-table img {
+  width: 100%; /* Adjust image width as needed */
+  object-fit: contain; /* Scale image to fit within cell */
+}
+
+.filter-dropdown {
+  position: relative;
+  display: inline-block;
+  float: right;
+  margin: 10px;
+}
+
+.dropdown-button {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.filter-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-item {
+  padding: 10px;
+  display: block;
+  color: black;
+  cursor: pointer;
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}

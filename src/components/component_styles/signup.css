@@ -1,0 +1,43 @@
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+input {
+  width: 150%;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box; /* Include padding in input width */
+}
+
+/* button {
+  background-color: #007bff; 
+  color: #fff;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-top: 1rem;
+  width: 10%;
+}
+
+button[disabled] {
+  background-color: #ccc;
+  cursor: not-allowed;
+} */
+
+/* Message Styling */
+p {
+  margin-top: 1rem;
+  color: #333;
+}

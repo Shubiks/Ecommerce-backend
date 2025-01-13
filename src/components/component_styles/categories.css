@@ -1,0 +1,83 @@
+/* Categories.css */
+
+/* Headings */
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+/* Tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+/* Category Table */
+.category-table {
+  margin-bottom: 1rem;
+}
+
+/* Products Table */
+.product-table {
+  margin-bottom: 1rem;
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+/* Button */
+.show-products-button {
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  margin-left: 45%;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.pagination button {
+  background-color: #ccc; /* Light grey button */
+  color: #000; /* Black text */
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.pagination button:disabled {
+  background-color: #ddd; /* Disabled button color */
+  cursor: default;
+}
+
+.pagination span {
+  padding: 0 0.5rem;
+}
+
+/* Product Table Image Adjustments */
+.product-table img {
+  max-width: 100px; /* Set a maximum width for images */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure image fills the container */
+}
